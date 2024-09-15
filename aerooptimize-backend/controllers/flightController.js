@@ -1,5 +1,5 @@
 const FlightSearch = require('../models/FlightSearch');  // Create a new schema for flight searches
-const User = require('../models/User');
+//const User = require('../models/User');
 const Amadeus = require('amadeus');
 
 // Initialize Amadeus API Client
