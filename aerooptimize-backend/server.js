@@ -8,7 +8,7 @@ const crypto = require('crypto');
 const Amadeus = require('amadeus');
 
 // Import controllers
-const userController = require('./controllers/userController');
+const userController = require('./controllers/notificationController');
 const flightController = require('./controllers/flightController');
 const cronJobs = require('./cornjobs/flightCronJob'); // Import cron jobs
 
